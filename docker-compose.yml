@@ -1,0 +1,10 @@
+services:
+  squid:
+    image: canonical/squid
+    ports:
+      - "3128:3128"
+
+    volumes:
+      - ${PWD}/squid.conf:/etc/squid/squid.conf
+
+    restart: always
