@@ -5,6 +5,6 @@ services:
       - "3128:3128"
 
     volumes:
-      - ${PWD}/squid.conf:/etc/squid/squid.conf
+      - ${PWD}/squid.conf:/etc/squid/conf.d/squid.conf
 
     restart: always
