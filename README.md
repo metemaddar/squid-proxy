@@ -4,9 +4,8 @@ It is used to change IP address. So that you do not need to VNC to Windows serve
 
 ## Warning ⚠️
 
-It has not tested yet.
+It doesn't have authentication yet.
 
 # TODO
 
 - Add Authentication
-- Add squid.conf
