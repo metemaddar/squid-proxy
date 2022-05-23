@@ -4,6 +4,10 @@ It is used to change IP address. So that you do not need to VNC to Windows serve
 
 ## Usage:
 
-set password by: `sudo htpasswd -c passwords username_you_like`
+set password by:
 
-run it: `docker-compose up`
+`sudo htpasswd -c passwords username_you_like`
+
+run it:
+
+`docker-compose up`
