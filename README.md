@@ -2,10 +2,8 @@
 
 It is used to change IP address. So that you do not need to VNC to Windows server. Just run the container and add proxy to browser.
 
-## Warning ⚠️
+## Usage:
 
-It doesn't have authentication yet.
+set password by: `sudo htpasswd -c passwords username_you_like`
 
-# TODO
-
-- Add Authentication
+run it: `docker-compose up`
