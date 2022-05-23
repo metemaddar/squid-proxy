@@ -6,6 +6,6 @@ services:
 
     volumes:
       - ${PWD}/squid.conf:/etc/squid/conf.d/squid.conf
-      - ${PWD}/passwords:/etc/squid3/passwords
+      - ${PWD}/passwords:/etc/squid/passwords
 
     restart: always
